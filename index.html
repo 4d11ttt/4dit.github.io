@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    
+    <header class="profile-section">
+      <img src="https://github.com/github.png" alt="Profile Picture" class="profile-img" id="profileImage">
+      
+      <h1 id="profileName">Nama Anda</h1>
+      <p class="bio" id="profileBio">Frontend Developer | Tech Enthusiast | Open Source Contributor</p>
+      
+      <div class="social-links">
+        <a href="#" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank" class="social-btn"><i class="fas fa-envelope"></i></a>
+      </div>
+    </header>
+
+    <section class="skills-section">
+      <h2 class="section-title">Tech Stack</h2>
+      <div id="skillsContainer">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">React</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">Python</span>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title" style="text-align:center; display:block;">Latest Projects</h2>
+      <div class="repo-grid" id="repoList">
+        <div class="loading">Memuat data dari GitHub...</div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
